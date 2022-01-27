@@ -1,0 +1,600 @@
+[20-Jan-2022 07:46:47 Europe/Berlin] inicia proceso
+[20-Jan-2022 07:46:47 Europe/Berlin] PHP Warning:  require(src/lib/routes.php): failed to open stream: No such file or directory in C:\xampp\htdocs\apihs\index.php on line 15
+[20-Jan-2022 07:46:47 Europe/Berlin] PHP Fatal error:  require(): Failed opening required 'src/lib/routes.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\apihs\index.php on line 15
+[20-Jan-2022 07:48:54 Europe/Berlin] inicia proceso
+[20-Jan-2022 07:48:54 Europe/Berlin] PHP Warning:  require(src/lib/routes.php): failed to open stream: No such file or directory in C:\xampp\htdocs\apihs\index.php on line 15
+[20-Jan-2022 07:48:54 Europe/Berlin] PHP Fatal error:  require(): Failed opening required 'src/lib/routes.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\apihs\index.php on line 15
+[20-Jan-2022 07:49:19 Europe/Berlin] inicia proceso
+[20-Jan-2022 07:49:19 Europe/Berlin] PHP Warning:  require(/src/lib/routes.php): failed to open stream: No such file or directory in C:\xampp\htdocs\apihs\index.php on line 15
+[20-Jan-2022 07:49:19 Europe/Berlin] PHP Fatal error:  require(): Failed opening required '/src/lib/routes.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\apihs\index.php on line 15
+[20-Jan-2022 07:49:33 Europe/Berlin] inicia proceso
+[21-Jan-2022 06:49:55 Europe/Berlin] inicia proceso
+[21-Jan-2022 06:50:15 Europe/Berlin] inicia proceso
+[21-Jan-2022 06:50:47 Europe/Berlin] inicia proceso
+[21-Jan-2022 06:59:44 Europe/Berlin] inicia proceso
+[21-Jan-2022 06:59:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'src\lib\Controller' not found in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php:11
+Stack trace:
+#0 C:\xampp\htdocs\apihs\vendor\composer\ClassLoader.php(480): include()
+#1 C:\xampp\htdocs\apihs\vendor\composer\ClassLoader.php(346): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('Rams\\Apihs\\cont...')
+#3 [internal function]: spl_autoload_call('Rams\\Apihs\\cont...')
+#4 C:\xampp\htdocs\apihs\vendor\bramus\router\src\Bramus\Router\Router.php(472): ReflectionMethod->__construct('Rams\\Apihs\\cont...', 'index')
+#5 C:\xampp\htdocs\apihs\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('Rams\\Apihs\\cont...', Array)
+#6 C:\xampp\htdocs\apihs\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\apihs\src\lib\routes.php(8): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\apihs\index.php(15): require('C:\\xampp\\htdocs in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 11
+[21-Jan-2022 07:02:53 Europe/Berlin] inicia proceso
+[21-Jan-2022 07:02:53 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'src\lib\Controller' not found in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php:11
+Stack trace:
+#0 C:\xampp\htdocs\apihs\vendor\composer\ClassLoader.php(480): include()
+#1 C:\xampp\htdocs\apihs\vendor\composer\ClassLoader.php(346): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('Rams\\Apihs\\cont...')
+#3 [internal function]: spl_autoload_call('Rams\\Apihs\\cont...')
+#4 C:\xampp\htdocs\apihs\vendor\bramus\router\src\Bramus\Router\Router.php(472): ReflectionMethod->__construct('Rams\\Apihs\\cont...', 'index')
+#5 C:\xampp\htdocs\apihs\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('Rams\\Apihs\\cont...', Array)
+#6 C:\xampp\htdocs\apihs\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\apihs\src\lib\routes.php(8): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\apihs\index.php(15): require('C:\\xampp\\htdocs in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 11
+[21-Jan-2022 07:03:37 Europe/Berlin] inicia proceso
+[21-Jan-2022 07:03:37 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Rams\Apihs\Controllers\Controller' not found in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php:8
+Stack trace:
+#0 C:\xampp\htdocs\apihs\vendor\composer\ClassLoader.php(480): include()
+#1 C:\xampp\htdocs\apihs\vendor\composer\ClassLoader.php(346): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('Rams\\Apihs\\cont...')
+#3 [internal function]: spl_autoload_call('Rams\\Apihs\\cont...')
+#4 C:\xampp\htdocs\apihs\vendor\bramus\router\src\Bramus\Router\Router.php(472): ReflectionMethod->__construct('Rams\\Apihs\\cont...', 'index')
+#5 C:\xampp\htdocs\apihs\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('Rams\\Apihs\\cont...', Array)
+#6 C:\xampp\htdocs\apihs\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\apihs\src\lib\routes.php(8): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\apihs\index.php(15): require('C:\ in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 8
+[21-Jan-2022 07:05:03 Europe/Berlin] inicia proceso
+[21-Jan-2022 07:05:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot call constructor in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php:13
+Stack trace:
+#0 C:\xampp\htdocs\apihs\vendor\bramus\router\src\Bramus\Router\Router.php(480): Rams\Apihs\Controllers\HubspotClients->__construct()
+#1 C:\xampp\htdocs\apihs\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('Rams\\Apihs\\cont...', Array)
+#2 C:\xampp\htdocs\apihs\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\xampp\htdocs\apihs\src\lib\routes.php(8): Bramus\Router\Router->run()
+#4 C:\xampp\htdocs\apihs\index.php(15): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 13
+[21-Jan-2022 07:07:11 Europe/Berlin] inicia proceso
+[21-Jan-2022 07:08:19 Europe/Berlin] inicia proceso
+[21-Jan-2022 07:08:54 Europe/Berlin] inicia proceso
+[21-Jan-2022 07:09:15 Europe/Berlin] inicia proceso
+[21-Jan-2022 07:12:30 Europe/Berlin] inicia proceso
+[22-Jan-2022 07:03:14 Europe/Berlin] inicia proceso
+[22-Jan-2022 07:04:18 Europe/Berlin] inicia proceso
+[22-Jan-2022 07:06:44 Europe/Berlin] inicia proceso
+[22-Jan-2022 07:07:06 Europe/Berlin] inicia proceso
+[22-Jan-2022 07:07:14 Europe/Berlin] inicia proceso
+[22-Jan-2022 07:09:48 Europe/Berlin] inicia proceso
+[22-Jan-2022 07:10:01 Europe/Berlin] inicia proceso
+[22-Jan-2022 07:10:59 Europe/Berlin] inicia proceso
+[22-Jan-2022 07:11:06 Europe/Berlin] inicia proceso
+[22-Jan-2022 07:13:59 Europe/Berlin] inicia proceso
+[22-Jan-2022 07:15:01 Europe/Berlin] inicia proceso
+[22-Jan-2022 07:15:24 Europe/Berlin] inicia proceso
+[22-Jan-2022 07:16:43 Europe/Berlin] inicia proceso
+[22-Jan-2022 07:17:08 Europe/Berlin] inicia proceso
+[22-Jan-2022 07:17:17 Europe/Berlin] inicia proceso
+[22-Jan-2022 07:17:30 Europe/Berlin] inicia proceso
+[22-Jan-2022 07:22:01 Europe/Berlin] inicia proceso
+[22-Jan-2022 07:23:24 Europe/Berlin] inicia proceso
+[22-Jan-2022 07:24:20 Europe/Berlin] inicia proceso
+[22-Jan-2022 07:24:20 Europe/Berlin] PHP Notice:  Undefined variable: client in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 19
+[22-Jan-2022 07:24:20 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function crm() on null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php:19
+Stack trace:
+#0 [internal function]: Rams\Apihs\Controllers\HubspotClients->index()
+#1 C:\xampp\htdocs\apihs\vendor\bramus\router\src\Bramus\Router\Router.php(482): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\apihs\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('Rams\\Apihs\\cont...', Array)
+#3 C:\xampp\htdocs\apihs\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\apihs\src\lib\routes.php(8): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\apihs\index.php(15): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 19
+[22-Jan-2022 07:24:44 Europe/Berlin] inicia proceso
+[22-Jan-2022 07:24:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Object of class Rams\Apihs\Controllers\HubspotClients could not be converted to string in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php:19
+Stack trace:
+#0 [internal function]: Rams\Apihs\Controllers\HubspotClients->index()
+#1 C:\xampp\htdocs\apihs\vendor\bramus\router\src\Bramus\Router\Router.php(482): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\apihs\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('Rams\\Apihs\\cont...', Array)
+#3 C:\xampp\htdocs\apihs\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\apihs\src\lib\routes.php(8): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\apihs\index.php(15): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 19
+[22-Jan-2022 07:25:35 Europe/Berlin] inicia proceso
+[22-Jan-2022 07:25:35 Europe/Berlin] PHP Fatal error:  Uncaught Error: Object of class Rams\Apihs\Controllers\HubspotClients could not be converted to string in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php:19
+Stack trace:
+#0 [internal function]: Rams\Apihs\Controllers\HubspotClients->index()
+#1 C:\xampp\htdocs\apihs\vendor\bramus\router\src\Bramus\Router\Router.php(482): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\apihs\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('Rams\\Apihs\\cont...', Array)
+#3 C:\xampp\htdocs\apihs\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\apihs\src\lib\routes.php(8): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\apihs\index.php(15): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 19
+[22-Jan-2022 07:26:00 Europe/Berlin] inicia proceso
+[22-Jan-2022 07:26:42 Europe/Berlin] inicia proceso
+[22-Jan-2022 07:26:44 Europe/Berlin] inicia proceso
+[22-Jan-2022 07:27:04 Europe/Berlin] inicia proceso
+[22-Jan-2022 07:29:33 Europe/Berlin] inicia proceso
+[22-Jan-2022 07:32:03 Europe/Berlin] inicia proceso
+[22-Jan-2022 07:32:13 Europe/Berlin] inicia proceso
+[22-Jan-2022 07:35:14 Europe/Berlin] inicia proceso
+[22-Jan-2022 07:35:15 Europe/Berlin] PHP Notice:  Undefined property: HubSpot\Client\Crm\Contacts\Model\CollectionResponseSimplePublicObjectWithAssociationsForwardPaging::$properties in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 20
+[22-Jan-2022 07:35:23 Europe/Berlin] inicia proceso
+[22-Jan-2022 07:39:03 Europe/Berlin] inicia proceso
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant hs_object_id - assumed 'hs_object_id' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant firstname - assumed 'firstname' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant nmero_de_telfono - assumed 'nmero_de_telfono' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant correo_electrnico - assumed 'correo_electrnico' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant createdate - assumed 'createdate' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant fecha_1ra_visita_piso - assumed 'fecha_1ra_visita_piso' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant fecha_2da_visita_piso - assumed 'fecha_2da_visita_piso' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant fuente - assumed 'fuente' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant hubspot_owner_id - assumed 'hubspot_owner_id' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant tiempo_de_compra_piso - assumed 'tiempo_de_compra_piso' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant tu_cliente_acepto_la_prueba_de_manejo_ - assumed 'tu_cliente_acepto_la_prueba_de_manejo_' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant auto - assumed 'auto' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant auto_seat - assumed 'auto_seat' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant porcentaje_enganche_cont - assumed 'porcentaje_enganche_cont' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant mensualidad_del_financiamiento - assumed 'mensualidad_del_financiamiento' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant plazo_del_financiamiento - assumed 'plazo_del_financiamiento' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant estado_de_seguimiento_piso - assumed 'estado_de_seguimiento_piso' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant hs_lead_status - assumed 'hs_lead_status' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant sucursal - assumed 'sucursal' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant first_conversion_event_name - assumed 'first_conversion_event_name' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant first_conversion_date - assumed 'first_conversion_date' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant recent_conversion_event_name - assumed 'recent_conversion_event_name' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant recent_conversion_date - assumed 'recent_conversion_date' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant email - assumed 'email' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant hs_email_last_email_name - assumed 'hs_email_last_email_name' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant hs_email_delivered - assumed 'hs_email_delivered' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant hs_email_open - assumed 'hs_email_open' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant hs_additional_emails - assumed 'hs_additional_emails' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant hs_content_membership_email_confirmed - assumed 'hs_content_membership_email_confirmed' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant hs_email_domain - assumed 'hs_email_domain' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant fecha_prueba_de_manejo - assumed 'fecha_prueba_de_manejo' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant hs_analytics_source - assumed 'hs_analytics_source' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant hs_analytics_source_data_2 - assumed 'hs_analytics_source_data_2' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant hs_analytics_source_data_1 - assumed 'hs_analytics_source_data_1' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant cul_es_tu_nmero_de_telfono - assumed 'cul_es_tu_nmero_de_telfono' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant lead_ad_prop_cul_es_tu_nmero_de_telfono - assumed 'lead_ad_prop_cul_es_tu_nmero_de_telfono' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant phone_number - assumed 'phone_number' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant tel_fono - assumed 'tel_fono' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant telfono - assumed 'telfono' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant mobilephone - assumed 'mobilephone' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant phone - assumed 'phone' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant fecha_llegada_a_piso_agenda_vendedor - assumed 'fecha_llegada_a_piso_agenda_vendedor' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant fecha_llegada_a_piso_digital - assumed 'fecha_llegada_a_piso_digital' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant en_que_auto_vw_esta_interesado_ - assumed 'en_que_auto_vw_esta_interesado_' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant vendedor_digital - assumed 'vendedor_digital' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant serie_de_factura - assumed 'serie_de_factura' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant folio_de_factura - assumed 'folio_de_factura' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant fuente_del_cliente - assumed 'fuente_del_cliente' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant fuente_del_contacto - assumed 'fuente_del_contacto' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant fecha_de_entrega_de_vehiculo - assumed 'fecha_de_entrega_de_vehiculo' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant familia - assumed 'familia' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant hubspot_team_id - assumed 'hubspot_team_id' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant calificacion_1ra_visita - assumed 'calificacion_1ra_visita' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant fecha_de_sombreo_1ra_visita - assumed 'fecha_de_sombreo_1ra_visita' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant calificacion_sombreo_2da_visita - assumed 'calificacion_sombreo_2da_visita' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant fecha_de_sombreo_2da_visita - assumed 'fecha_de_sombreo_2da_visita' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant calificacion_sombreo_de_entrega - assumed 'calificacion_sombreo_de_entrega' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant fecha_de_sombreo_de_entrega - assumed 'fecha_de_sombreo_de_entrega' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant grabacion_realizada - assumed 'grabacion_realizada' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant grabacion_realizada_2da_visita - assumed 'grabacion_realizada_2da_visita' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:03 Europe/Berlin] PHP Warning:  Use of undefined constant grabacion_realizada___entrega - assumed 'grabacion_realizada___entrega' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 10
+[22-Jan-2022 07:39:42 Europe/Berlin] inicia proceso
+[22-Jan-2022 07:41:16 Europe/Berlin] inicia proceso
+[22-Jan-2022 07:41:16 Europe/Berlin] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in C:\xampp\htdocs\apihs\vendor\guzzlehttp\psr7\src\Query.php:96
+Stack trace:
+#0 C:\xampp\htdocs\apihs\vendor\hubspot\api-client\codegen\Crm\Contacts\Api\BasicApi.php(1375): GuzzleHttp\Psr7\Query::build(Array)
+#1 C:\xampp\htdocs\apihs\vendor\hubspot\api-client\codegen\Crm\Contacts\Api\BasicApi.php(1061): HubSpot\Client\Crm\Contacts\Api\BasicApi->getPageRequest(1, NULL, Object(stdClass), NULL, false)
+#2 C:\xampp\htdocs\apihs\vendor\hubspot\api-client\codegen\Crm\Contacts\Api\BasicApi.php(1040): HubSpot\Client\Crm\Contacts\Api\BasicApi->getPageWithHttpInfo(1, NULL, Object(stdClass), NULL, false)
+#3 C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php(19): HubSpot\Client\Crm\Contacts\Api\BasicApi->getPage(1, NULL, Object(stdClass), NULL, false)
+#4 [internal function]: Rams\Apihs\Controllers\HubspotClients->index()
+#5 C:\xampp\htdocs\apihs\vendor\bramus\router\src\Bramus\Router\Router.php(482): call_user_func_array(Array, Array)
+#6 C:\x in C:\xampp\htdocs\apihs\vendor\guzzlehttp\psr7\src\Query.php on line 96
+[22-Jan-2022 07:41:31 Europe/Berlin] inicia proceso
+[22-Jan-2022 07:42:00 Europe/Berlin] inicia proceso
+[22-Jan-2022 07:42:02 Europe/Berlin] inicia proceso
+[22-Jan-2022 07:45:10 Europe/Berlin] inicia proceso
+[22-Jan-2022 07:45:25 Europe/Berlin] inicia proceso
+[23-Jan-2022 23:21:36 Europe/Berlin] inicia proceso
+[23-Jan-2022 23:22:43 Europe/Berlin] inicia proceso
+[23-Jan-2022 23:27:13 Europe/Berlin] inicia proceso
+[23-Jan-2022 23:28:24 Europe/Berlin] inicia proceso
+[23-Jan-2022 23:28:46 Europe/Berlin] inicia proceso
+[23-Jan-2022 23:28:57 Europe/Berlin] inicia proceso
+[23-Jan-2022 23:28:58 Europe/Berlin] inicia proceso
+[23-Jan-2022 23:34:57 Europe/Berlin] inicia proceso
+[23-Jan-2022 23:35:05 Europe/Berlin] inicia proceso
+[23-Jan-2022 23:38:56 Europe/Berlin] inicia proceso
+[23-Jan-2022 23:38:56 Europe/Berlin] PHP Notice:  Undefined property: HubSpot\Client\Crm\Contacts\Model\CollectionResponseSimplePublicObjectWithAssociationsForwardPaging::$results in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 27
+[23-Jan-2022 23:39:07 Europe/Berlin] inicia proceso
+[23-Jan-2022 23:42:22 Europe/Berlin] inicia proceso
+[23-Jan-2022 23:43:42 Europe/Berlin] inicia proceso
+[23-Jan-2022 23:46:34 Europe/Berlin] inicia proceso
+[23-Jan-2022 23:48:57 Europe/Berlin] inicia proceso
+[23-Jan-2022 23:49:32 Europe/Berlin] inicia proceso
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant hs_object_id - assumed 'hs_object_id' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant firstname - assumed 'firstname' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant nmero_de_telfono - assumed 'nmero_de_telfono' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant correo_electrnico - assumed 'correo_electrnico' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant createdate - assumed 'createdate' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant fecha_1ra_visita_piso - assumed 'fecha_1ra_visita_piso' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant fecha_2da_visita_piso - assumed 'fecha_2da_visita_piso' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant fuente - assumed 'fuente' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant hubspot_owner_id - assumed 'hubspot_owner_id' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant tiempo_de_compra_piso - assumed 'tiempo_de_compra_piso' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant tu_cliente_acepto_la_prueba_de_manejo_ - assumed 'tu_cliente_acepto_la_prueba_de_manejo_' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant auto - assumed 'auto' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant auto_seat - assumed 'auto_seat' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant porcentaje_enganche_cont - assumed 'porcentaje_enganche_cont' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant mensualidad_del_financiamiento - assumed 'mensualidad_del_financiamiento' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant plazo_del_financiamiento - assumed 'plazo_del_financiamiento' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant estado_de_seguimiento_piso - assumed 'estado_de_seguimiento_piso' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant hs_lead_status - assumed 'hs_lead_status' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant sucursal - assumed 'sucursal' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant first_conversion_event_name - assumed 'first_conversion_event_name' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant first_conversion_date - assumed 'first_conversion_date' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant recent_conversion_event_name - assumed 'recent_conversion_event_name' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant recent_conversion_date - assumed 'recent_conversion_date' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant email - assumed 'email' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant hs_email_last_email_name - assumed 'hs_email_last_email_name' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant hs_email_delivered - assumed 'hs_email_delivered' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant hs_email_open - assumed 'hs_email_open' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant hs_additional_emails - assumed 'hs_additional_emails' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant hs_content_membership_email_confirmed - assumed 'hs_content_membership_email_confirmed' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant hs_email_domain - assumed 'hs_email_domain' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant fecha_prueba_de_manejo - assumed 'fecha_prueba_de_manejo' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant hs_analytics_source - assumed 'hs_analytics_source' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant hs_analytics_source_data_2 - assumed 'hs_analytics_source_data_2' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant hs_analytics_source_data_1 - assumed 'hs_analytics_source_data_1' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant cul_es_tu_nmero_de_telfono - assumed 'cul_es_tu_nmero_de_telfono' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant lead_ad_prop_cul_es_tu_nmero_de_telfono - assumed 'lead_ad_prop_cul_es_tu_nmero_de_telfono' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant phone_number - assumed 'phone_number' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant tel_fono - assumed 'tel_fono' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant telfono - assumed 'telfono' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant mobilephone - assumed 'mobilephone' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant phone - assumed 'phone' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant fecha_llegada_a_piso_agenda_vendedor - assumed 'fecha_llegada_a_piso_agenda_vendedor' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant fecha_llegada_a_piso_digital - assumed 'fecha_llegada_a_piso_digital' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant en_que_auto_vw_esta_interesado_ - assumed 'en_que_auto_vw_esta_interesado_' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant vendedor_digital - assumed 'vendedor_digital' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant serie_de_factura - assumed 'serie_de_factura' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant folio_de_factura - assumed 'folio_de_factura' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant fuente_del_cliente - assumed 'fuente_del_cliente' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant fuente_del_contacto - assumed 'fuente_del_contacto' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant fecha_de_entrega_de_vehiculo - assumed 'fecha_de_entrega_de_vehiculo' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant familia - assumed 'familia' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant hubspot_team_id - assumed 'hubspot_team_id' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant calificacion_1ra_visita - assumed 'calificacion_1ra_visita' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant fecha_de_sombreo_1ra_visita - assumed 'fecha_de_sombreo_1ra_visita' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant calificacion_sombreo_2da_visita - assumed 'calificacion_sombreo_2da_visita' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant fecha_de_sombreo_2da_visita - assumed 'fecha_de_sombreo_2da_visita' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant calificacion_sombreo_de_entrega - assumed 'calificacion_sombreo_de_entrega' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant fecha_de_sombreo_de_entrega - assumed 'fecha_de_sombreo_de_entrega' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant grabacion_realizada - assumed 'grabacion_realizada' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant grabacion_realizada_2da_visita - assumed 'grabacion_realizada_2da_visita' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:32 Europe/Berlin] PHP Warning:  Use of undefined constant grabacion_realizada___entrega - assumed 'grabacion_realizada___entrega' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[23-Jan-2022 23:49:44 Europe/Berlin] inicia proceso
+[23-Jan-2022 23:49:56 Europe/Berlin] inicia proceso
+[23-Jan-2022 23:51:28 Europe/Berlin] inicia proceso
+[23-Jan-2022 23:54:17 Europe/Berlin] inicia proceso
+[24-Jan-2022 00:04:34 Europe/Berlin] inicia proceso
+[24-Jan-2022 00:26:59 Europe/Berlin] inicia proceso
+[24-Jan-2022 00:28:24 Europe/Berlin] inicia proceso
+[24-Jan-2022 00:37:09 Europe/Berlin] inicia proceso
+[24-Jan-2022 00:37:16 Europe/Berlin] inicia proceso
+[24-Jan-2022 00:37:16 Europe/Berlin] PHP Warning:  Use of undefined constant hs_object_id - assumed 'hs_object_id' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[24-Jan-2022 00:37:16 Europe/Berlin] PHP Warning:  Use of undefined constant firstname - assumed 'firstname' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[24-Jan-2022 00:37:16 Europe/Berlin] PHP Warning:  Use of undefined constant nmero_de_telfono - assumed 'nmero_de_telfono' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[24-Jan-2022 00:37:22 Europe/Berlin] inicia proceso
+[24-Jan-2022 00:38:09 Europe/Berlin] inicia proceso
+[24-Jan-2022 00:48:51 Europe/Berlin] inicia proceso
+[24-Jan-2022 01:00:33 Europe/Berlin] inicia proceso
+[24-Jan-2022 01:00:44 Europe/Berlin] inicia proceso
+[24-Jan-2022 01:01:03 Europe/Berlin] inicia proceso
+[24-Jan-2022 01:01:24 Europe/Berlin] inicia proceso
+[24-Jan-2022 01:01:37 Europe/Berlin] inicia proceso
+[24-Jan-2022 01:01:52 Europe/Berlin] inicia proceso
+[24-Jan-2022 01:02:44 Europe/Berlin] inicia proceso
+[25-Jan-2022 02:55:47 Europe/Berlin] inicia proceso
+[25-Jan-2022 02:55:48 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Rams\Apihs\services\hsClients' not found in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php:17
+Stack trace:
+#0 [internal function]: Rams\Apihs\Controllers\HubspotClients->index()
+#1 C:\xampp\htdocs\apihs\vendor\bramus\router\src\Bramus\Router\Router.php(482): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\apihs\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('Rams\\Apihs\\cont...', Array)
+#3 C:\xampp\htdocs\apihs\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\apihs\src\lib\routes.php(8): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\apihs\index.php(15): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 17
+[25-Jan-2022 02:56:25 Europe/Berlin] inicia proceso
+[25-Jan-2022 02:56:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Rams\Apihs\services\HsClients' not found in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php:17
+Stack trace:
+#0 [internal function]: Rams\Apihs\Controllers\HubspotClients->index()
+#1 C:\xampp\htdocs\apihs\vendor\bramus\router\src\Bramus\Router\Router.php(482): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\apihs\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('Rams\\Apihs\\cont...', Array)
+#3 C:\xampp\htdocs\apihs\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\apihs\src\lib\routes.php(8): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\apihs\index.php(15): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 17
+[25-Jan-2022 02:58:22 Europe/Berlin] inicia proceso
+[25-Jan-2022 02:59:08 Europe/Berlin] inicia proceso
+[25-Jan-2022 02:59:09 Europe/Berlin] PHP Notice:  Undefined property: HubSpot\Client\Crm\Contacts\Model\CollectionResponseSimplePublicObjectWithAssociationsForwardPaging::$results in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[25-Jan-2022 02:59:09 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[25-Jan-2022 02:59:20 Europe/Berlin] inicia proceso
+[25-Jan-2022 02:59:51 Europe/Berlin] inicia proceso
+[25-Jan-2022 02:59:52 Europe/Berlin] PHP Notice:  Undefined property: HubSpot\Client\Crm\Contacts\Model\SimplePublicObjectWithAssociations::$phone in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 22
+[25-Jan-2022 03:00:10 Europe/Berlin] inicia proceso
+[25-Jan-2022 03:00:10 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php:21
+Stack trace:
+#0 [internal function]: Rams\Apihs\Controllers\HubspotClients->index()
+#1 C:\xampp\htdocs\apihs\vendor\bramus\router\src\Bramus\Router\Router.php(482): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\apihs\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('Rams\\Apihs\\cont...', Array)
+#3 C:\xampp\htdocs\apihs\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\apihs\src\lib\routes.php(8): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\apihs\index.php(15): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 21
+[25-Jan-2022 03:00:25 Europe/Berlin] inicia proceso
+[25-Jan-2022 03:00:26 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$phone in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 22
+[25-Jan-2022 03:00:49 Europe/Berlin] inicia proceso
+[25-Jan-2022 03:01:08 Europe/Berlin] inicia proceso
+[25-Jan-2022 03:01:09 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$phone in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 22
+[25-Jan-2022 03:01:13 Europe/Berlin] inicia proceso
+[25-Jan-2022 03:01:13 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$phone in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 22
+[25-Jan-2022 03:01:17 Europe/Berlin] inicia proceso
+[25-Jan-2022 03:01:55 Europe/Berlin] inicia proceso
+[25-Jan-2022 03:02:20 Europe/Berlin] inicia proceso
+[25-Jan-2022 03:02:34 Europe/Berlin] inicia proceso
+[25-Jan-2022 03:02:57 Europe/Berlin] inicia proceso
+[25-Jan-2022 03:03:15 Europe/Berlin] inicia proceso
+[25-Jan-2022 03:03:15 Europe/Berlin] PHP Notice:  Undefined property: HubSpot\Client\Crm\Contacts\Model\SimplePublicObjectWithAssociations::$id in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 24
+[25-Jan-2022 03:03:32 Europe/Berlin] inicia proceso
+[25-Jan-2022 03:05:45 Europe/Berlin] inicia proceso
+[25-Jan-2022 03:05:54 Europe/Berlin] inicia proceso
+[25-Jan-2022 03:07:20 Europe/Berlin] inicia proceso
+[25-Jan-2022 03:07:27 Europe/Berlin] inicia proceso
+[25-Jan-2022 03:07:28 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 23
+[25-Jan-2022 03:07:35 Europe/Berlin] inicia proceso
+[25-Jan-2022 03:08:00 Europe/Berlin] inicia proceso
+[25-Jan-2022 03:08:00 Europe/Berlin] PHP Notice:  Undefined index: properties in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 23
+[25-Jan-2022 03:08:00 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 23
+[25-Jan-2022 03:08:21 Europe/Berlin] inicia proceso
+[25-Jan-2022 03:10:40 Europe/Berlin] inicia proceso
+[25-Jan-2022 03:12:18 Europe/Berlin] inicia proceso
+[25-Jan-2022 03:12:26 Europe/Berlin] inicia proceso
+[25-Jan-2022 03:12:45 Europe/Berlin] inicia proceso
+[25-Jan-2022 03:12:45 Europe/Berlin] PHP Notice:  Trying to get property 'phone' of non-object in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 24
+[25-Jan-2022 03:12:59 Europe/Berlin] inicia proceso
+[25-Jan-2022 03:13:54 Europe/Berlin] inicia proceso
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Uninitialized string offset: 0 in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:13:54 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:12 Europe/Berlin] inicia proceso
+[25-Jan-2022 03:14:12 Europe/Berlin] PHP Notice:  Trying to get property 'phone' of non-object in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:34 Europe/Berlin] inicia proceso
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Uninitialized string offset: 0 in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:35 Europe/Berlin] PHP Warning:  Illegal string offset 'phone' in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 25
+[25-Jan-2022 03:14:53 Europe/Berlin] inicia proceso
+[25-Jan-2022 03:15:12 Europe/Berlin] inicia proceso
+[25-Jan-2022 03:33:15 Europe/Berlin] inicia proceso
+[25-Jan-2022 04:07:30 Europe/Berlin] inicia proceso
+[25-Jan-2022 04:07:31 Europe/Berlin] PHP Warning:  preg_replace(): Unknown modifier '/' in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 17
+[25-Jan-2022 04:08:40 Europe/Berlin] inicia proceso
+[25-Jan-2022 04:08:58 Europe/Berlin] inicia proceso
+[25-Jan-2022 04:09:18 Europe/Berlin] inicia proceso
+[25-Jan-2022 04:09:36 Europe/Berlin] inicia proceso
+[25-Jan-2022 04:09:36 Europe/Berlin] PHP Warning:  preg_replace(): Unknown modifier 'g' in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 17
+[25-Jan-2022 04:11:40 Europe/Berlin] inicia proceso
+[25-Jan-2022 04:11:49 Europe/Berlin] inicia proceso
+[25-Jan-2022 04:11:54 Europe/Berlin] inicia proceso
+[25-Jan-2022 04:12:08 Europe/Berlin] inicia proceso
+[25-Jan-2022 04:12:11 Europe/Berlin] inicia proceso
+[25-Jan-2022 04:14:11 Europe/Berlin] inicia proceso
+[25-Jan-2022 04:14:11 Europe/Berlin] PHP Warning:  preg_replace(): No ending delimiter '/' found in C:\xampp\htdocs\apihs\src\lib\Controller.php on line 17
+[25-Jan-2022 04:14:21 Europe/Berlin] inicia proceso
+[25-Jan-2022 04:14:27 Europe/Berlin] inicia proceso
+[25-Jan-2022 04:14:41 Europe/Berlin] inicia proceso
+[25-Jan-2022 04:16:37 Europe/Berlin] inicia proceso
+[25-Jan-2022 04:16:50 Europe/Berlin] inicia proceso
+[25-Jan-2022 04:16:59 Europe/Berlin] inicia proceso
+[25-Jan-2022 06:36:51 Europe/Berlin] inicia proceso
+[27-Jan-2022 03:01:42 Europe/Berlin] inicia proceso
+[27-Jan-2022 03:01:47 Europe/Berlin] PHP Fatal error:  Uncaught HubSpot\Client\Crm\Contacts\ApiException: [400] Client error: `GET https://api.hubapi.com/crm/v3/objects/contacts?limit=500&properties=hs_object_id%2Cfirstname%2Cnmero_de_telfono%2Ccorreo_electrnico%2Ccreatedate%2Cfecha_1ra_visita_piso%2Cfecha_2da_visita_piso%2Cfuente%2Chubspot_owner_id%2Ctiempo_de_compra_piso%2Ctu_cliente_acepto_la_prueba_de_manejo_%2Cauto%2Cauto_seat%2Cporcentaje_enganche_cont%2Cmensualidad_del_financiamiento%2Cplazo_del_financiamiento%2Cestado_de_seguimiento_piso%2Chs_lead_status%2Csucursal%2Cfirst_conversion_event_name%2Cfirst_conversion_date%2Crecent_conversion_event_name%2Crecent_conversion_date%2Cemail%2Chs_email_last_email_name%2Chs_email_delivered%2Chs_email_open%2Chs_additional_emails%2Chs_content_membership_email_confirmed%2Chs_email_domain%2Cfecha_prueba_de_manejo%2Chs_analytics_source%2Chs_analytics_source_data_2%2Chs_analytics_source_data_1%2Ccul_es_tu_nmero_de_telfono%2Clead_ad_prop_cul_es_tu_nmero_de_telfono%2Cphone_number%2Ctel_fono%2Ctelfono%2Cmobilephone%2Cphone%2C in C:\xampp\htdocs\apihs\vendor\hubspot\api-client\codegen\Crm\Contacts\Api\BasicApi.php on line 1068
+[27-Jan-2022 03:02:25 Europe/Berlin] inicia proceso
+[27-Jan-2022 03:03:15 Europe/Berlin] inicia proceso
+[27-Jan-2022 03:03:26 Europe/Berlin] inicia proceso
+[27-Jan-2022 03:03:27 Europe/Berlin] PHP Fatal error:  Uncaught HubSpot\Client\Crm\Contacts\ApiException: [400] Client error: `GET https://api.hubapi.com/crm/v3/objects/contacts?limit=200&properties=hs_object_id%2Cfirstname%2Cnmero_de_telfono%2Ccorreo_electrnico%2Ccreatedate%2Cfecha_1ra_visita_piso%2Cfecha_2da_visita_piso%2Cfuente%2Chubspot_owner_id%2Ctiempo_de_compra_piso%2Ctu_cliente_acepto_la_prueba_de_manejo_%2Cauto%2Cauto_seat%2Cporcentaje_enganche_cont%2Cmensualidad_del_financiamiento%2Cplazo_del_financiamiento%2Cestado_de_seguimiento_piso%2Chs_lead_status%2Csucursal%2Cfirst_conversion_event_name%2Cfirst_conversion_date%2Crecent_conversion_event_name%2Crecent_conversion_date%2Cemail%2Chs_email_last_email_name%2Chs_email_delivered%2Chs_email_open%2Chs_additional_emails%2Chs_content_membership_email_confirmed%2Chs_email_domain%2Cfecha_prueba_de_manejo%2Chs_analytics_source%2Chs_analytics_source_data_2%2Chs_analytics_source_data_1%2Ccul_es_tu_nmero_de_telfono%2Clead_ad_prop_cul_es_tu_nmero_de_telfono%2Cphone_number%2Ctel_fono%2Ctelfono%2Cmobilephone%2Cphone%2C in C:\xampp\htdocs\apihs\vendor\hubspot\api-client\codegen\Crm\Contacts\Api\BasicApi.php on line 1068
+[27-Jan-2022 03:04:37 Europe/Berlin] inicia proceso
+[27-Jan-2022 03:04:37 Europe/Berlin] PHP Fatal error:  Uncaught HubSpot\Client\Crm\Contacts\ApiException: [400] Client error: `GET https://api.hubapi.com/crm/v3/objects/contacts?limit=150&properties=hs_object_id%2Cfirstname%2Cnmero_de_telfono%2Ccorreo_electrnico%2Ccreatedate%2Cfecha_1ra_visita_piso%2Cfecha_2da_visita_piso%2Cfuente%2Chubspot_owner_id%2Ctiempo_de_compra_piso%2Ctu_cliente_acepto_la_prueba_de_manejo_%2Cauto%2Cauto_seat%2Cporcentaje_enganche_cont%2Cmensualidad_del_financiamiento%2Cplazo_del_financiamiento%2Cestado_de_seguimiento_piso%2Chs_lead_status%2Csucursal%2Cfirst_conversion_event_name%2Cfirst_conversion_date%2Crecent_conversion_event_name%2Crecent_conversion_date%2Cemail%2Chs_email_last_email_name%2Chs_email_delivered%2Chs_email_open%2Chs_additional_emails%2Chs_content_membership_email_confirmed%2Chs_email_domain%2Cfecha_prueba_de_manejo%2Chs_analytics_source%2Chs_analytics_source_data_2%2Chs_analytics_source_data_1%2Ccul_es_tu_nmero_de_telfono%2Clead_ad_prop_cul_es_tu_nmero_de_telfono%2Cphone_number%2Ctel_fono%2Ctelfono%2Cmobilephone%2Cphone%2C in C:\xampp\htdocs\apihs\vendor\hubspot\api-client\codegen\Crm\Contacts\Api\BasicApi.php on line 1068
+[27-Jan-2022 03:04:47 Europe/Berlin] inicia proceso
+[27-Jan-2022 03:09:20 Europe/Berlin] inicia proceso
+[27-Jan-2022 03:09:20 Europe/Berlin] PHP Fatal error:  Cannot use [] for reading in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 22
+[27-Jan-2022 03:09:49 Europe/Berlin] inicia proceso
+[27-Jan-2022 03:22:00 Europe/Berlin] inicia proceso
+[27-Jan-2022 03:33:44 Europe/Berlin] inicia proceso
+[27-Jan-2022 03:36:24 Europe/Berlin] inicia proceso
+[27-Jan-2022 03:37:19 Europe/Berlin] inicia proceso
+[27-Jan-2022 03:38:18 Europe/Berlin] inicia proceso
+[27-Jan-2022 03:39:16 Europe/Berlin] inicia proceso
+[27-Jan-2022 03:39:16 Europe/Berlin] PHP Notice:  Undefined index: properties in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 27
+[27-Jan-2022 03:39:26 Europe/Berlin] inicia proceso
+[27-Jan-2022 03:41:22 Europe/Berlin] inicia proceso
+[27-Jan-2022 03:41:32 Europe/Berlin] inicia proceso
+[27-Jan-2022 03:43:17 Europe/Berlin] inicia proceso
+[27-Jan-2022 03:48:03 Europe/Berlin] inicia proceso
+[27-Jan-2022 03:48:03 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'var_dump' (T_STRING) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 22
+[27-Jan-2022 03:48:21 Europe/Berlin] inicia proceso
+[27-Jan-2022 03:48:21 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'var_dump' (T_STRING) in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 42
+[27-Jan-2022 03:48:34 Europe/Berlin] inicia proceso
+[27-Jan-2022 03:50:34 Europe/Berlin] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\apihs\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php on line 563
+[27-Jan-2022 04:20:46 Europe/Berlin] inicia proceso
+[27-Jan-2022 04:27:50 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 33
+[27-Jan-2022 04:49:35 Europe/Berlin] inicia proceso
+[27-Jan-2022 04:55:45 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\apihs\src\controllers\hubspotClients.php on line 33
